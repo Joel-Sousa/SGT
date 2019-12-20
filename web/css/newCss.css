@@ -1,0 +1,368 @@
+#divFiltroMCI{
+	/*position: relative;
+	cursor: pointer;
+ */
+}
+#divFiltroMCI:hover{
+	/*top: 1px;*/
+}
+
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 5px 10px;
+}	
+
+button{
+    /*background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #fff 0%, #d2d2d2 100%) repeat scroll 0 0;*/
+    border: 1px solid #377cbd;
+    color: #fff;
+    /*font-weight: bold;*/
+    padding: 5px 10px;
+}
+
+#btnPesquisar{
+    /*background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #377cbd 0%, #004488 100%) repeat scroll 0 0;*/
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #1976d2 0%, #1976d2 100%) repeat scroll 0 0;
+    border: 1px solid #377cbd;
+    color: #fff;
+    /*font-weight: bold;*/
+    padding: 5px 10px;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.ttf');
+} 
+@font-face {
+    font-family: 'bbbold';
+    src: url('../font/testeb-webfont.woff2') format('woff2'),
+         url('../font/testeb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} 
+@font-face {
+	font-family:'Titillium';
+	src:url("../font/Titillium-Regular.otf");
+} 	
+@font-face {
+	font-family:'Open-Sans';
+	src:url('../font/OpenSans-Regular.ttf');
+} 
+@font-face {
+	font-family:'Eras Bold ITC';
+	src:url('../font/ERASBD.TTF');	
+} 
+@font-face {
+	font-family:forte;
+	src:url("../font/FORTE.TTF");	
+} 
+@font-face {
+	font-family:'MS Sans Serif';
+	src:url("../font/serife.fon");
+} 
+
+/*
+*  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */
+/*
+ @font-face{
+     font-family:FontAwesome;
+            src:url("../font/fontawesome-webfont.eot?v=4.7.0");
+            src:url("../font/fontawesome-webfont.eot?#iefix&v=4.7.0") 
+                format("embedded-opentype"),url("../font/fontawesome-webfont.woff2?v=4.7.0") 
+                format("woff2"),url("../font/fontawesome-webfont.woff?v=4.7.0") 
+                format("woff"),url("../font/fontawesome-webfont.ttf?v=4.7.0") 
+                format("truetype"),url("../font/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") 
+                format("svg");font-weight:400;font-style:normal
+ }
+ */
+ .info{
+    display: none;
+    position: relative; 
+    cursor: pointer; 
+    color:#1976d2;
+    padding: 1px 4px;
+    border: 1px solid hsla(0, 0%, 100%, 0.2);
+    background: linear-gradient(#fff000,#f8e000, #ffcc00) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    width: 50px;
+    height: 35px;
+    
+    font-size:30px;
+    
+    text-align: center;
+    -webkit-transition:all 1s ease-in-out 0s; 
+    -moz-transition:all 1s ease-in-out 0s; 
+    -o-transition:all 1s ease-in-out 0s; 
+    transition:all 1s ease-in-out 0s;	
+
+ }
+ .info:hover{top: 1px;}
+ 
+header::before {
+    content: " #interna";
+    float: right;
+    font-size: 27px;
+    font-weight: 700;
+    margin-left: 7px;
+}
+header {
+    background: #1976d2 none repeat scroll 0 0;
+    color: #fff;
+    padding: 9px;
+}
+header {
+    overflow: auto;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.admin-exportar {
+    float: right;
+}
+.ajuda, .exportar, a.admin {
+    border: 1px solid hsla(0, 0%, 100%, 0.2);
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -2px;
+    padding: 1px 4px;
+    text-decoration: none;
+}
+
+.exportar2 {
+    border: 1px solid #27408b;
+    border-radius: 4px;
+    color: #27408b;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: -2px;
+    padding: 1px 4px;
+    text-decoration: none;
+}
+header a {
+    color: inherit;
+    text-decoration: none;
+}
+.fa-download:before{content:"\F019"}
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: inherit;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+}
+
+
+.filtro-form {
+    background: #ddd none repeat scroll 0 0;
+    padding-bottom: 2px;
+}
+.filtro-form a.listar {
+    background: #1976d2 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    outline: medium none;
+    padding: 3px 5px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.filtro-form a {
+    text-decoration: none;
+}
+.filtro-form div.listar {
+    background: #1976d2 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    outline: medium none;
+    padding: 3px 5px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.filtro-form div {
+    text-decoration: none;
+}
+
+
+
+/*combo------------início--*/
+.combo, .label {
+    display: inline-block;
+}
+.combo {
+    outline: medium none;
+    position: relative;
+}
+.label::after {
+    content: "";
+    font-family: FontAwesome;
+    margin-left: 7px;
+}
+.label {
+    background: #fff none repeat scroll 0 0;
+    border-color: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+.label {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    cursor: pointer;
+    margin-left: 3px;
+    padding: 2px 5px;
+}
+.combo, .label {
+    display: inline-block;
+}
+.options {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 4px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    display: none;
+    left: 3px;
+    max-height: 400px;
+    overflow: auto;
+    padding: 4px 0;
+    position: absolute;
+    top: 20px;
+    z-index: 11;
+}
+.option {
+    cursor: pointer;
+    display: block;
+    margin-top: -1px;
+    overflow: hidden;
+    padding: 4px 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 170px;
+}
+/*combo------------finali--*/
+
+
+  .shape {
+    margin-left: 4em;
+    margin-top: 2.5em;
+    height: 8em;
+    width: 8em;
+    box-shadow: 4px 4px 8px;
+    color: #ccc;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50%;
+  }
+  .circle, .pill {
+    border-radius: 8em;
+  }
+  .pill, .rectangle {
+    width: 16em;
+  }
+  .square, .circle {
+    margin-left: 9em;
+  }
+  .border {
+    border: 2px solid #333333;
+  }
+  .toggles {
+    width: 200px;
+  }
+  .toggle-wrap, .shape {
+    display: inline-block;
+    vertical-align: top;
+  }
+  .controls {
+    background: #ccc;
+    padding: 1em;
+    display: inline-block;
+  }
+  
+  
+  #tdFiltros{
+    -webkit-transition:all 1s ease-in-out 0s; 
+    -moz-transition:all 1s ease-in-out 0s; 
+    -o-transition:all 1s ease-in-out 0s; 
+    transition:all 1s ease-in-out 0s;	      
+  }
+  #tableFiltros{
+    -webkit-transition:all 1s ease-in-out 0s; 
+    -moz-transition:all 1s ease-in-out 0s; 
+    -o-transition:all 1s ease-in-out 0s; 
+    transition:all 1s ease-in-out 0s;      
+  }
+  
+  .divBoxFiltro{
+      float: left; 
+      font-size: 9px; 
+      background-color: #fff;
+      width: 115px; 
+      min-width: 115px; 
+      max-width: 115px; 
+      height: 60px; 
+      text-align: left; 
+      vertical-align: middle;
+      padding: 7px;
+      border: solid 1px #d1d1d1;
+  }
+  .divBoxFiltro .divBoxFiltroTituloLimpar{
+      font-weight: bold;
+      border: solid 0px; 
+      color:#999;
+      font-size:12px;
+      color: tomato;
+      width: 135px;
+      min-width: 135px;
+      max-width: 135px;
+      height: 18px;      
+  }  
+  
+  .divBoxFiltro .divBoxFiltroTitulo{
+      font-weight: bold;
+      border: solid 0px; 
+      color:#999;
+      font-size:10px;
+      width: 135px;
+      min-width: 135px;
+      max-width: 135px;
+      height: 18px;      
+  }  
+  .divBoxFiltro .divBoxFiltroValor{
+      position: relative;
+      top: 3px;
+      float: left; 
+      border: solid 0px; 
+      color: #666;
+      vertical-align: top;
+      width: 90px;
+      min-width: 90px;
+      max-width: 90px;
+      height: 34px;
+      overflow: hidden;
+  }  
+  .divBoxFiltro i{
+      float: left; 
+      border: solid 0px; 
+      color: #666;
+      vertical-align: top;
+      font-size: 18px;
+      padding: 5px;
+      cursor: pointer;
+  }   
+  .divBoxFiltroSpc{
+      float: left; 
+      border: solid 1px; 
+      width: 5px; 
+      border: solid 1px #f9f9f9 ;
+      background: #ccc;
+  }  

@@ -1,0 +1,355 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media print
+{
+/*	table
+	{
+		display:none;
+	}
+*/	
+	.NaoImprima
+	{
+		display:none;
+	}
+
+	.Imprima
+	{
+		display:table;
+	}
+}
+
+img
+{
+	border:none;
+}
+
+body
+{
+	margin:0px;
+
+}
+
+table[id="TabRel"]
+{
+	font-family:'Arial Narrow', Helvetica, sans-serif;
+	/*font-family:"Tahoma";*/
+	background-color:#BBBBBB;
+	vertical-align: middle;
+	height: auto;
+	width: 100%;
+	empty-cells:show;
+	border-spacing:1px;
+}
+
+#TabRel caption
+{
+	text-align:left;
+	font-size:20px;
+	font-weight:bold;
+	color:#004488;
+	background-color:#FFFFFF;
+	padding:4px;
+}
+
+#TabRel thead tr td
+{
+	text-align:center;
+	color:#004488;
+	font-size:18px;
+	font-weight:bold;
+	background-color:#FFDD00;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	padding: 4px;
+}
+
+#TabRel thead tr th
+{
+	text-align:left;
+	color:#048;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#BBBBBB;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #004488;
+	padding-left: 2px;
+	padding-right: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+#TabRel tbody tr:hover td {background:#F6EAB9 !important;}
+#TabRel  tbody tr td:hover {background:#FCD94E !important;}
+
+
+#TabRel thead tr .header 
+{
+	background-image: url("meio.gif");
+	background-repeat: no-repeat;
+	background-position: right center;
+	cursor: pointer;
+}
+
+#TabRel thead tr .headerSortUp
+{ 
+	background-image: url("baixo.gif");
+}
+
+#TabRel thead tr .headerSortDown
+{
+	background-image: url("cima.gif");
+}
+
+#TabRel thead tr .headerSortDown, #TabRel thead tr .headerSortUp 
+{
+	background-color:#CFCFCF;
+}
+
+#TabRel tbody tr td
+{
+	color:#000000;
+	font-size:12px;
+	background-color:#FFFFFF;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+#TabRel tbody tr.even td
+{
+	background-color:#FFFFFF;
+}
+
+#TabRel tbody tr.odd td
+{
+	background-color:#DDDDFF;
+}
+
+#TabRel tfoot tr th
+{
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:normal;
+	background-color:#BBBBBB;
+	padding: 0px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	height:3px;
+	padding-right:10px;
+	text-align:right;
+}
+
+#TabRel tfoot tr td
+{
+	color:#004488;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#FFFFFF;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+table.TabRel
+{
+	font-family:"Arial Narrow";
+	background-color:#BBBBBB;
+	vertical-align: middle;
+	height: auto;
+	width: 100%;
+	empty-cells:show;
+	border-spacing:1px;
+}
+
+table.TabRel caption
+{
+	text-align:left;
+	font-size:20px;
+	font-weight:bold;
+	color:#004488;
+	background-color:#FFFFFF;
+	padding:4px;
+}
+
+table.TabRel thead tr td
+{
+	text-align:center;
+	color:#004488;
+	font-size:18px;
+	font-weight:bold;
+	background-color:#FFDD00;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	padding: 4px;
+}
+
+table.TabRel thead tr th
+{
+	text-align:left;
+	color:#048;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#BBBBBB;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #004488;
+	padding-left: 2px;
+	padding-right: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+table.TabRel thead tr .header 
+{
+	background-image: url("meio.gif");
+	background-repeat: no-repeat;
+	background-position: right center;
+	cursor: pointer;
+}
+
+table.TabRel thead tr .headerSortUp
+{ 
+	background-image: url("baixo.gif");
+}
+
+table.TabRel thead tr .headerSortDown
+{
+	background-image: url("cima.gif");
+}
+
+table.TabRel thead tr .headerSortDown, table.TabRel  thead tr .headerSortUp 
+{
+	background-color:#CFCFCF;
+}
+
+table.TabRel tbody tr td
+{
+	color:#000000;
+	font-size:12px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+table.TabRel tbody tr.even td
+{
+	background-color:#FFFFFF;
+}
+
+table.TabRel tbody tr.odd td
+{
+	background-color:#DDDDFF;
+}
+
+table.TabRel tfoot tr th
+{
+	color:#FFFFFF;
+	font-size:12px;
+	background-color:#BBBBBB;
+	padding: 0px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	height:3px;
+	padding-right:10px;
+	text-align:right;
+}
+
+table.TabRel tfoot tr td
+{
+	color:#004488;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#FFFFFF;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+h1
+{
+	width: 100%;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	color:#004488;
+}
+
+h2
+{
+	width: 100%;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#3333CC;
+}
+
+h3
+{
+	width: 100%;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#0077DD;
+}
+
+h5
+{
+	width:99%;
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	color:#004488;
+	background-color:#FFDD00;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin: 0px;
+	margin-top: 5px;
+	margin-bottom: 5x;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+}
+
+td a
+{
+	font-family:'Arial Narrow', Helvetica, sans-serif;
+	font-size:12px;
+	text-decoration:none;
+	color:#004488;
+}
+
+a
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#999999;
+	outline:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+.divisa
+{
+	border-right-width: 3px;
+	border-right-style: solid;
+	border-right-color: #BBBBBB;
+}

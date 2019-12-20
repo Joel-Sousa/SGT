@@ -1,0 +1,870 @@
+
+BODY {
+	BACKGROUND-COLOR: #ffffff; 
+        /*COLOR: #000000; */
+        color: rgba(38, 50, 56, 0.56);
+        FONT-FAMILY: Roboto, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px; MARGIN-TOP: 0px
+}
+TABLE {
+	/*COLOR: #000000; */
+        FONT-FAMILY: Roboto, Arial, Helvetica, sans-serif; FONT-SIZE: 14px
+}
+SELECT {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px
+}
+TEXTAREA {
+	BACKGROUND-COLOR: #ffffff; BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px
+}
+
+#testeiraNome {
+	MARGIN-TOP: 0px; FONT-SIZE: 11px; LEFT: 97px; MARGIN-LEFT: 2px; WIDTH: 280px; COLOR: #0068b4; FONT-FAMILY: arial; POSITION: absolute; TOP: 23px; HEIGHT: 23px
+}
+
+
+
+.fundoAzul {
+	background-color:#e6f0fd;
+	color:#000000;
+}
+.fundoBranco {
+	background-color:#FFFFFF;
+	color:#000000;
+}
+.fundoAzulEscuro {
+	background-color:#00CCFF;
+	color:#000000;
+}
+.fundoCinza {
+	background-color:#EEEEEE;
+	color:#000000;
+}
+
+.menuJs {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuJs:hover {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuJs12 {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuJs12:hover {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuPreto {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuPreto:hover {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.menuPreto11 {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+.menuPreto11:hover {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+.menuPreto11FA {
+	background-color:#FFE682; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+.menuPreto11FA:hover {
+	background-color:#FFE682; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+.menuPreto12 {
+	COLOR: #000000; FONT-FAMILY: Verdana; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuPreto12:hover {
+	COLOR: #000000; FONT-FAMILY: Verdana; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.menuBranco {
+	COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuBranco:hover {
+	COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.menuAzulClaro12 {
+	COLOR: #0066CC; FONT-FAMILY: Verdana; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuAzulClaro12:hover {
+	COLOR: #0066CC; FONT-FAMILY: Verdana; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.menuAzulEscuro {
+	COLOR: #22407b; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuAzulEscuro:hover {
+	COLOR: #22407b; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.menuAzulClaro {
+	COLOR: #006fa8; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuAzulClaro:hover {
+	COLOR: #006fa8; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+
+.menuAzulClaroFundoAmarelo {
+	COLOR: #006fa8; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none; BACKGROUND-COLOR: #FFE682
+}
+.menuAzulClaroFundoAmarelo:hover {
+	COLOR: #006fa8; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline; BACKGROUND-COLOR: #FFE682
+
+}
+
+.linkAzulClaro12 {
+	COLOR: #006fa8; FONT-FAMILY: Verdana, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold;  TEXT-DECORATION: underline
+}
+.linkAzulClaro12:hover {
+	COLOR: #006fa8; FONT-FAMILY: Verdana, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold;  TEXT-DECORATION: underline; BACKGROUND-COLOR: #ffdb4a
+}
+
+
+
+
+
+
+.menuVerdeEscuro {
+	COLOR: #186606; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.menuVerdeEscuro:hover {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 13px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.txtPreto {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.txtPreto:hover {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.txtBranco {
+	COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.txtBranco:hover {
+	COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.titulo {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 16px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.titulo:hover {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 15px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.titulo20 {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 20px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.titulo20:hover {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 20px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.tituloVerde {
+	COLOR: #186606; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 16px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.tituloVerde:hover {
+	COLOR: #186606; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 15px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.txtAzulEscuro {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.txtAzulEscuro:hover {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.txtAzulClaro {
+	COLOR: #006fa8; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.txtAzulClaro:hover {
+	COLOR: #006fa8; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.txtVerde {
+	COLOR: #186606; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.txtVerde:hover {
+	COLOR: #186606; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.txtAzul12b {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.txtAzul12b:hover {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.txtAzul12 {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.txtAzul12:hover {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.txtAzul11 {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.txtAzul11:hover {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+.txtAzul10 {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+.txtAzul10:hover {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+.txtAzul10b {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10px; FONT-WEIGHT: bold
+}
+.txtAzul10b:hover {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10px; FONT-WEIGHT: bold
+}
+.txtPreto12 {
+	COLOR: #000000; FONT-FAMILY: Verdana; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.txtPreto12:hover {
+	COLOR: #000000; FONT-FAMILY: Verdana; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.txtPreto12i {
+	COLOR: #000000; FONT-FAMILY: Verdana; FONT-SIZE: 12px; FONT-STYLE: italic; TEXT-DECORATION: none
+}
+.txtPreto12i:hover {
+	COLOR: #000000; FONT-FAMILY: Verdana; FONT-SIZE: 12px; FONT-STYLE: italic; TEXT-DECORATION: underline
+}
+.txtPreto12B {
+	COLOR: #000000; FONT-FAMILY: Verdana; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none;
+}
+.txtPreto12B:hover {
+	COLOR: #000000; FONT-FAMILY: Verdana; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.txtPreto14B {
+	COLOR: #000000; FONT-FAMILY: Verdana; FONT-SIZE: 14px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+
+.txtPreto11 {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.txtPreto11:hover {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+
+.txtPreto10 {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 10px; TEXT-DECORATION: none
+}
+.txtPreto10:hover {
+	COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 6px; TEXT-DECORATION: underline
+}
+.linkPreto {
+	COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+.linkPreto:hover {
+	COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; FONT-SIZE: 10px; TEXT-DECORATION: underline
+}
+.linkBranco {
+	COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.linkBranco:hover {
+	COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.linkAzulEscuro {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.linkAzulEscuro:hover {
+	COLOR: #22407b; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.linkAzulClaro {
+	COLOR: #0000FF; FONT-FAMILY: Verdana; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.linkAzulClaro:hover {
+	COLOR: #0000FF; FONT-FAMILY: Verdana; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.alerta {
+	COLOR: #ea0000; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 13px; FONT-WEIGHT: bold
+}
+.quebra {
+	PAGE-BREAK-BEFORE: always
+}
+.menuBorda {
+	BORDER-BOTTOM: #000000 1px outset; BORDER-LEFT: #000000 1px outset; BORDER-RIGHT: #000000 1px outset; BORDER-TOP: #000000 1px outset
+}
+.migalha {
+	COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+.migalha:hover {
+	COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 11px; TEXT-DECORATION: underline
+}
+
+.tituloRelCartaMes
+{
+	text-align:center;
+	vertical-align:top;
+	font-family: Arial;
+	color: #0000AA;
+	font-size: 18px;
+	font-weight: bold
+}
+
+.subTituloRelCartaMes
+{
+	text-align:center;
+	vertical-align:top;
+	font-family: Arial;
+	color: #0000AA;
+	font-size: 16px;
+	font-weight: bold
+}
+
+.tituloTabelaRelCartaMes
+{
+	text-align:center;
+	vertical-align:top;
+	background-color:#EEEEEE;
+	font-family:Arial;
+	color:#990000;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.cabecalhoRelCartaMes
+{
+	font-family: Arial;
+	color: #000000;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.colunaBorda
+{
+	border-bottom-style: solid;
+	border-bottom-color: #DDDDDD;
+	border-bottom-width: 2px;
+}
+
+.colunaBorda2
+{
+	border-bottom-style: solid;
+	border-bottom-color: #DDDDDD;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-right-color: #DDDDDD;
+	border-right-width: 1px;
+}
+
+.detalheAzulRelCartaMes
+{
+	font-family: Arial;
+	color: #0000AA;
+	font-size: 9px;
+}
+
+.detalhePretoRelCartaMesBig
+{
+	font-family: Arial;
+	color: #000000;
+	font-size: 12px;
+}
+
+.detalhePretoRelCartaMes
+{
+	font-family: Arial;
+	color: #000000;
+	font-size: 9px;
+}
+
+.grupoNivelRelCartaMes
+{
+	text-align:center;
+	vertical-align:top;
+	background-color:#EEEEEE;
+	font-family: Arial;
+	color: #990000;
+	font-size: 10px;
+	font-weight: bold
+}
+
+.linhaDivisao
+{
+	background-color:#DDDDDD;
+	height:1;
+}
+
+.fundoDired
+{
+	background-color:#AAFFBB;
+	font-family: Arial;
+	color: #000000;
+	font-size: 9px;
+	font-weight: bold
+}
+
+.fundoSuper
+{
+	background-color:#FFFF22;
+	font-family: Arial;
+	color: #000000;
+	font-size: 9px;
+	font-weight: bold
+}
+
+.fundoGerev
+{
+	background-color:#BBDDFF;
+	font-family: Arial;
+	color: #000000;
+	font-size: 9px;
+}
+
+.fundoRedeSel
+{
+	background-color:#FF8822;
+	font-family: Arial;
+	color: #000000;
+	font-size: 9px;
+	font-weight: bold
+}
+
+.fundoRede
+{
+	background-color:#FFBF66;
+	font-family: Arial;
+	color: #000000;
+	font-size: 9px;
+	font-weight: bold
+}
+
+.fundoLider
+{
+	background-color:#FFF4BB;
+	font-family: Arial;
+	color: #000000;
+	font-size: 9px;
+	font-weight: bold
+}
+
+.fundoOuro
+{
+	background-color:#FFDD00;
+}
+
+.cabecalhoRelCartaMes2010
+{
+	font-family: Arial;
+	background-color:#FFFACD;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.tituloTabelaRelCartaMes2010
+{
+	text-align:center;
+	vertical-align:top;
+	background-color:#FFFACD;
+	font-family:Arial;
+	color:#000000;
+	font-size:14px;
+	font-weight:bold;
+}
+.tituloObjetivoCartaMes
+{
+	text-align:center;
+	vertical-align:top;
+	font-family: Arial;
+	color: #0000AA;
+	font-size: 14px;
+	font-weight: bold
+}
+.fundoImobTxt {
+	text-align:center;
+	color:#000000;
+	font-family:Arial;
+	background-color:#FFB90F;
+	font-size:12px;
+	font-weight:bold;
+	font-weight:bold;
+	BORDER-BOTTOM: #FFF 2px solid;
+	BORDER-LEFT: #FFF 3px solid; 
+	BORDER-RIGHT: #FFF 3x solid; 
+	BORDER-TOP: #FFF 2px solid
+		
+}
+
+.fundoImobOp {
+	text-align:center;
+	color:#000000;
+	font-family:Arial;
+	background-color:#B5B5B5;
+	font-size:12px;
+	font-weight:bold;
+	BORDER-BOTTOM: #FFF 2px solid;
+	BORDER-LEFT: #FFF 3px solid; 
+	BORDER-RIGHT: #FFF 3x solid; 
+	BORDER-TOP: #FFF 2px solid	
+}
+
+.barraSuper1
+{
+	width:100%;
+	height:80px;
+	border:0px;
+	margin:0px;
+	border-spacing:0px;
+	background-image:url(../cabecalhoSuper.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+.barraDisap
+{
+	width:100%;
+	height:80px;
+	border:0px;
+	margin:0px;
+	border-spacing:0px;
+	background-image:url(/../novosite/imagens/logo_disap.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+table.barraSuper1 tr td
+{
+	border:none;
+	margin:0px;
+	padding-bottom:4px;
+	padding-left:100px;
+	vertical-align:bottom;
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#0064A0;
+}
+
+
+.barraSuper
+{
+	width:100%;
+	height:100px;
+	border:0px;
+	margin:0px;
+	border-spacing:0px;
+	background-image:url(/../images/cabecalho.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+table.barraSuper tr td
+{
+	border:none;
+	margin:0px;
+	padding-bottom:25px;
+	padding-left:370px;
+	vertical-align:bottom;
+	text-align:left;
+	font-family:Calibri, Verdana, Geneva, sans-serif;
+	font-size:46px;
+	font-weight:bold;
+	color:#27408B;
+}
+
+.barraSuperTrasp
+{
+	width:100%;
+	height:80px;
+	border:0px;
+	margin:0px;
+	border-spacing:0px;
+	background-image:url(/../images/cabecalho_transparente.png);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+table.barraSuperTrasp tr td
+{
+	border:none;
+	margin:0px;
+	padding-bottom:10px;
+	padding-left:390px;
+	vertical-align:bottom;
+	text-align:left;
+	font-family:Calibri, Verdana, Geneva, sans-serif;
+	font-size:46px;
+	font-weight:bold;
+	color:#27408B;
+}
+
+
+.quadroCartaMes
+{
+	border:none;
+	margin:0px;
+	border-spacing:2px;
+	background-color:#F5F5FC;
+}
+
+
+table.quadroCartaMes thead tr th
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#001030;
+	background-color:#FFDD00;
+	vertical-align:middle;
+	text-align:center;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+
+table.quadroCartaMes tbody tr td
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#001030;
+	background-color:#EEE;
+	vertical-align:middle;
+	text-align:center;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+table.quadroCartaMes tbody tr td.rent
+{
+	background-color:#FCF8AB;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+table.quadroCartaMes tbody tr td.brent
+{
+	border:none;
+	border-top-style:solid;
+	border-top-width:4px;
+	border-top-color:#FCF8AB;
+	border-right-style:solid;
+	border-right-width:4px;
+	border-right-color:#FCF8AB;
+	border-left-style:solid;
+	border-left-width:4px;
+	border-left-color:#FCF8AB;
+	border-bottom-style:solid;
+	border-bottom-width:4px;
+	border-bottom-color:#FCF8AB;
+	font-size:14px;
+	height:150px;
+}
+
+table.quadroCartaMes tbody tr td.fide
+{
+	background-color:#88AAFF;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+table.quadroCartaMes tbody tr td.bfide
+{
+	border:none;
+	border-top-style:solid;
+	border-top-width:4px;
+	border-top-color:#88AAFF;
+	border-right-style:solid;
+	border-right-width:4px;
+	border-right-color:#88AAFF;
+	border-left-style:solid;
+	border-left-width:4px;
+	border-left-color:#88AAFF;
+	border-bottom-style:solid;
+	border-bottom-width:4px;
+	border-bottom-color:#88AAFF;
+	font-size:14px;
+	height:150px;
+}
+
+table.quadroCartaMes tbody tr td.gest
+{
+	background-color:#99FF88;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+
+table.quadroCartaMes tbody tr td.bgest
+{
+	border:none;
+	border-top-style:solid;
+	border-top-width:4px;
+	border-top-color:#99FF88;
+	border-right-style:solid;
+	border-right-width:4px;
+	border-right-color:#99FF88;
+	border-left-style:solid;
+	border-left-width:4px;
+	border-left-color:#99FF88;
+	border-bottom-style:solid;
+	border-bottom-width:4px;
+	border-bottom-color:#99FF88;
+	font-size:14px;
+	height:150px;
+}
+
+
+table.quadroCartaMes tbody tr td.bout
+{
+	border:none;
+	border-top-style:solid;
+	border-top-width:5px;
+	border-top-color:#920;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#920;
+}
+table.quadroCartaMes tbody tr td.bout2
+{
+	border:none;
+	border-top-style:solid;
+	border-top-width:5px;
+	border-top-color:#080;
+	border-left-style:solid;
+	border-left-width:5px;
+	border-left-color:#080;
+	border-right-style:solid;
+	border-right-width:5px;
+	border-right-color:#080;
+	border-bottom-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:#080;
+}
+
+
+table.quadroCartaMes tbody tr td.indut
+{
+	background-color:#CCCCDD;
+	font-weight:bold;
+}
+
+table.quadroCartaMes tfoot tr td
+{
+	font-size:14px;
+	font-weight:bold;
+	padding-left:3px;
+	padding-right:3px;
+	padding-top:3px;
+	padding-bottom:1px;
+}
+
+.localData
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#001030;
+	text-align:right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.nomeAcesso
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#001030;
+	text-align:justify;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.textoCartaMes
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	color:#001030;
+	text-align:justify;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+@media print
+{
+	.maior
+	{
+		width:35%;
+	}
+}
+.bordaBox {
+	bbackground: ttransparent;
+	width:735px;
+}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b4, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b, .bordaBox .b4b {display:block; overflow:hidden; font-size:1px;}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b {height:1px;}
+.bordaBox .b2, .bordaBox .b3, .bordaBox .b4 {background:#CECECE; border-left:1px solid #999; border-right:1px solid #999;}
+.bordaBox .b1 {margin:0 5px; background:#999;}
+.bordaBox .b2 {margin:0 3px; border-width:0 2px;}
+.bordaBox .b3 {margin:0 2px;}
+.bordaBox .b4 {height:2px; margin:0 1px;}
+.bordaBox .conteudo {padding:5px;display:block; background:#CECECE; border-left:1px solid #999; border-right:1px solid #999;}
+
+.botao{font-family:Calibri, Verdana, Geneva, sans-serif; font-weight:bold; font-size:18px; color:#FFF; padding: 1px 4px; margin: 2px; border: 0px; -moz-border-radius: 8px; -webkit-border-radius: 8px; border-radius: 8px; background-color: #273B56; background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D1D9EE), color-stop(100%,#1C47AB)); background: -webkit-linear-gradient(top, #D1D9EE, #1C47AB); background: -moz-linear-gradient(top, #D1D9EE, #1C47AB); background: -ms-linear-gradient(top, #D1D9EE, #1C47AB); background: -o-linear-gradient(top, #D1D9EE, #1C47AB); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1D9EE', endColorstr='#1C47AB',GradientType=0 ); box-shadow: inset 0 0px 1px #fff, 0 2px 3px #666; cursor:pointer}
+.botao:hover {box-shadow: inset 0 2px 5px #fff, 0 3px 3px #666; background: -webkit-gradient(linear, left top, left bottom, from(#D1D9EE), to(#1C47AB));}
+
+.botaoAzul{
+background-color:#273B56;color:#F9DD16;font-weight:bold;border-radius:15px;width:160px;height:40px;font-size:23px;
+}	
+
+.botaoAmarelo{
+background-color:#FFCC01;font-weight:bold;border-radius:15px;width:160px;height:40px;font-size:23px;
+}	
+
+.div_novosite{ font-family:'Calibri', Verdana, Geneva, sans-serif; color:#333; font-size:16px; width:800px; padding:10px; margin:25px; background-color:#FFF; border:2px solid #CCC; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;box-shadow: 2px 2px 6px #999; -moz-box-shadow: 2px 2px 6px #999; -webkit-box-shadow: 2px 2px 6px #999; -khtml-box-shadow: 2px 2px 6px #999; -ms-filter: "progid:DXImageTransform.Microsoft.Shadow"; /* IE8+ */}
+
+
+#mainFooter {
+position:fixed;
+z-index:1;
+height:20px;
+width:100%;
+background-color:#FFF;
+bottom:0px;
+}
+#footer {
+color:#0332A1;	
+font-size:14px;
+position:relative;
+z-index:2;
+margin:auto;
+width:100%;
+height:20px;
+background:#FFCC00;
+font-weight:bold;
+}	
+
+#tip_barra_lat{
+	position:fixed; 
+	right:5px; 
+	top:265px; 
+	width:45px; 
+	height:245px;
+	background-color:#F3F3F3;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow: 3px 3px 3px #999;
+	-moz-box-shadow: 3px 3px 3px #999;
+	-webkit-box-shadow: 3px 3px 3px #999;
+	-khtml-box-shadow: 3px 3px 3px #999;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow"; /* IE8+ */	
+}
+
+#tip_sup{
+	width:45px; 
+	height:45px;
+    background:url(https://spcapital.intranet.bb.com.br/imagensMenu/icones/wf_ico_pb.png) no-repeat;
+}
+
+#tip_sup:hover{background:url(https://spcapital.intranet.bb.com.br/imagensMenu/icones/wf_ico.png) no-repeat;}
+
+.tTip {width: 200px; position: absolute; cursor: pointer; color: #666; font-weight: bold;}
+.tip {color: #333;}
+
+.tip {
+	width: 212px;
+	padding-top: 37px;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index: 500;
+	background: transparent url(images/tipTop.png) no-repeat top;}
+	
+.tipMid {background: transparent url(images/tipMid.png) repeat-y; padding: 0 25px 20px 25px;}
+.tipBtm {background: transparent url(images/tipBtm.png) no-repeat bottom; height: 32px;}

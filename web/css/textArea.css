@@ -1,0 +1,39 @@
+body{
+    font-family: verdana;
+    font-size: 16px;
+    
+}
+
+.txt{
+	height: 25px;
+	width: 200px;
+	border: none;
+	border-radius: 5px;
+	background-color: #EEE;
+	padding: 4px;
+}
+
+.txt:hover{
+	background-color: #CCC;
+}
+
+#btnCad{
+	width: 100px;
+	height: 30px;
+	background-color: #EFEFEF;
+	border-radius: 40px;
+	border: 1px solid #CCC;
+}
+
+#btnCad:hover{
+	background-color: #CCC;
+}
+
+#dat2{
+	height: 32px;
+	width: 100px;
+	border: none;
+	border-radius: 5px;
+	background-color: #EEE;
+	padding: 4px;
+}
